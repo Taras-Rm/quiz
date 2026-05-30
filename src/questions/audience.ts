@@ -4,270 +4,270 @@ export const questions: QuizQuestion[] = [
     {
         id: 1,
         question: {
-            ru: "Кого Даниил попросил молиться о тайне сна?",
+            uk: "Кого Даниїл попросив молитися про таємницю сну?",
             en: "Whom did Daniel ask to pray about the mystery of the dream?",
         },
         answer: {
-            ru: "Ананию, Мисаила и Азарию.",
+            uk: "Ананії, Мисаїла і Азарії.",
             en: "Hananiah, Mishael, and Azariah.",
         },
         verse: {
-            ru: "Даниил 2:17–18",
+            uk: "Даниїл 2:17–18",
             en: "Daniel 2:17–18",
         },
     },
     {
         id: 2,
         question: {
-            ru: "Кого царь приказал уничтожить, когда мудрецы не смогли открыть сон?",
+            uk: "Кого цар наказав знищити, коли мудреці не змогли відкрити сон?",
             en: "Whom did the king order to be destroyed when the wise men could not reveal the dream?",
         },
         answer: {
-            ru: "Всех мудрецов Вавилона.",
+            uk: "Усіх мудреців Вавилону.",
             en: "All the wise men of Babylon.",
         },
         verse: {
-            ru: "Даниил 2:12",
+            uk: "Даниїл 2:12",
             en: "Daniel 2:12",
         },
     },
     {
         id: 3,
         question: {
-            ru: "Где Навуходоносор поставил золотого истукана?",
+            uk: "Де Навуходоносор поставив золотого ідола?",
             en: "Where did Nebuchadnezzar set up the golden statue?",
         },
         answer: {
-            ru: "На поле Деир.",
+            uk: "На рівнині Деїр.",
             en: "On the plain of Dura.",
         },
         verse: {
-            ru: "Даниил 3:1",
+            uk: "Даниїл 3:1",
             en: "Daniel 3:1",
         },
     },
     {
         id: 4,
         question: {
-            ru: "Кто отказался поклониться золотому истукану?",
+            uk: "Хто відмовився поклонитися золотому ідолу?",
             en: "Who refused to bow down to the golden statue?",
         },
         answer: {
-            ru: "Седрах, Мисах и Авденаго.",
+            uk: "Седрах, Місах і Авденаго.",
             en: "Shadrach, Meshach, and Abednego.",
         },
         verse: {
-            ru: "Даниил 3:12",
+            uk: "Даниїл 3:12",
             en: "Daniel 3:12",
         },
     },
     {
         id: 5,
         question: {
-            ru: "Куда бросили трех друзей Даниила?",
+            uk: "Куди кинули трьох друзів Даниїла?",
             en: "Where were Daniel’s three friends thrown?",
         },
         answer: {
-            ru: "В раскаленную огненную печь.",
+            uk: "У розжарену вогняну піч.",
             en: "Into a blazing fiery furnace.",
         },
         verse: {
-            ru: "Даниил 3:20–21",
+            uk: "Даниїл 3:20–21",
             en: "Daniel 3:20–21",
         },
     },
     {
         id: 6,
         question: {
-            ru: "Сколько человек увидел Навуходоносор в печи?",
+            uk: "Скільки осіб побачив Навуходоносор у печі?",
             en: "How many figures did Nebuchadnezzar see in the furnace?",
         },
         answer: {
-            ru: "Четырех.",
+            uk: "Чотирьох.",
             en: "Four.",
         },
         verse: {
-            ru: "Даниил 3:24–25",
+            uk: "Даниїл 3:24–25",
             en: "Daniel 3:24–25",
         },
     },
     {
         id: 7,
         question: {
-            ru: "Что произошло с Навуходоносором после его гордости?",
+            uk: "Що сталося з Навуходоносором після його гордості?",
             en: "What happened to Nebuchadnezzar after his pride?",
         },
         answer: {
-            ru: "Он был отлучен от людей и жил как зверь.",
+            uk: "Він був відлучений від людей і жив як звір.",
             en: "He was driven away from people and lived like a beast.",
         },
         verse: {
-            ru: "Даниил 4:30",
+            uk: "Даниїл 4:30",
             en: "Daniel 4:30",
         },
     },
     {
         id: 8,
         question: {
-            ru: "Когда разум Навуходоносора вернулся к нему?",
+            uk: "Коли розум Навуходоносора повернувся до нього?",
             en: "When did Nebuchadnezzar’s reason return to him?",
         },
         answer: {
-            ru: "Когда он поднял глаза к небу.",
+            uk: "Коли він підняв очі до неба.",
             en: "When he lifted his eyes to heaven.",
         },
         verse: {
-            ru: "Даниил 4:31",
+            uk: "Даниїл 4:31",
             en: "Daniel 4:31",
         },
     },
     {
         id: 9,
         question: {
-            ru: "Что появилось на стене во время пира Валтасара?",
+            uk: "Що з’явилося на стіні під час бенкету Валтасара?",
             en: "What appeared on the wall during Belshazzar’s feast?",
         },
         answer: {
-            ru: "Персты человеческой руки.",
+            uk: "Пальці людської руки.",
             en: "Fingers of a human hand.",
         },
         verse: {
-            ru: "Даниил 5:5",
+            uk: "Даниїл 5:5",
             en: "Daniel 5:5",
         },
     },
     {
         id: 10,
         question: {
-            ru: "Куда бросили Даниила за молитву Богу?",
+            uk: "Куди кинули Даниїла за молитву до Бога?",
             en: "Where was Daniel thrown for praying to God?",
         },
         answer: {
-            ru: "В львиный ров.",
+            uk: "У лев’ячу яму.",
             en: "Into the lions’ den.",
         },
         verse: {
-            ru: "Даниил 6:16",
+            uk: "Даниїл 6:16",
             en: "Daniel 6:16",
         },
     },
     {
         id: 11,
         question: {
-            ru: "Кто закрыл пасти львам?",
+            uk: "Хто закрив пащі левів?",
             en: "Who shut the mouths of the lions?",
         },
         answer: {
-            ru: "Ангел Божий.",
+            uk: "Ангел Божий.",
             en: "An angel of God.",
         },
         verse: {
-            ru: "Даниил 6:22",
+            uk: "Даниїл 6:22",
             en: "Daniel 6:22",
         },
     },
     {
         id: 12,
         question: {
-            ru: "В какой дом Навуходоносор внес сосуды дома Божия?",
+            uk: "У чий дім Навуходоносор переніс сосуди Божого дому?",
             en: "Into whose house did Nebuchadnezzar bring the vessels of God’s house?",
         },
         answer: {
-            ru: "В дом своего бога.",
+            uk: "У дім свого бога.",
             en: "Into the house of his god.",
         },
         verse: {
-            ru: "Даниил 1:2",
+            uk: "Даниїл 1:2",
             en: "Daniel 1:2",
         },
     },
     {
         id: 13,
         question: {
-            ru: "В какую сторону были открыты окна Даниила во время молитвы?",
+            uk: "У який бік були відкриті вікна Даниїла під час молитви?",
             en: "Toward which direction were Daniel’s windows open during prayer?",
         },
         answer: {
-            ru: "В сторону Иерусалима.",
+            uk: "У бік Єрусалима.",
             en: "Toward Jerusalem.",
         },
         verse: {
-            ru: "Даниил 6:10",
+            uk: "Даниїл 6:10",
             en: "Daniel 6:10",
         },
     },
     {
         id: 14,
         question: {
-            ru: "Что случилось с обвинителями Даниила?",
+            uk: "Що сталося з обвинувачами Даниїла?",
             en: "What happened to Daniel’s accusers?",
         },
         answer: {
-            ru: "Их бросили в львиный ров, и львы одолели их.",
+            uk: "Їх кинули в лев’ячу яму, і леви їх подолали.",
             en: "They were thrown into the lions’ den and were overpowered by the lions.",
         },
         verse: {
-            ru: "Даниил 6:24",
+            uk: "Даниїл 6:24",
             en: "Daniel 6:24",
         },
     },
     {
         id: 15,
         question: {
-            ru: "В какой год царствования Валтасара Даниил увидел видение о зверях?",
+            uk: "У який рік царювання Валтасара Даниїл побачив видіння про звірів?",
             en: "In which year of Belshazzar’s reign did Daniel see the vision of the beasts?",
         },
         answer: {
-            ru: "В первый год.",
+            uk: "У перший рік.",
             en: "In the first year.",
         },
         verse: {
-            ru: "Даниил 7:1",
+            uk: "Даниїл 7:1",
             en: "Daniel 7:1",
         },
     },
     {
         id: 16,
         question: {
-            ru: "Откуда вышли четыре больших зверя в видении Даниила?",
+            uk: "Звідки вийшли чотири великі звірі у видінні Даниїла?",
             en: "Where did the four great beasts come from in Daniel’s vision?",
         },
         answer: {
-            ru: "Из моря.",
+            uk: "З моря.",
             en: "From the sea.",
         },
         verse: {
-            ru: "Даниил 7:3",
+            uk: "Даниїл 7:3",
             en: "Daniel 7:3",
         },
     },
     {
         id: 17,
         question: {
-            ru: "Что делал малый рог в видении Даниила?",
+            uk: "Що робив малий ріг у видінні Даниїла?",
             en: "What did the little horn do in Daniel’s vision?",
         },
         answer: {
-            ru: "Говорил высокомерно.",
+            uk: "Говорив зарозуміло.",
             en: "It spoke boastfully.",
         },
         verse: {
-            ru: "Даниил 7:8",
+            uk: "Даниїл 7:8",
             en: "Daniel 7:8",
         },
     },
     {
         id: 18,
         question: {
-            ru: "До какого момента действовал зверь с малым рогом?",
+            uk: "До якого моменту діяв звір з малим рогом?",
             en: "Until when did the beast with the little horn continue to act?",
         },
         answer: {
-            ru: "Пока не был убит зверь и тело его не было предано огню.",
+            uk: "Поки не був убитий звір і його тіло не було віддане вогню.",
             en: "Until the beast was slain and its body destroyed by fire.",
         },
         verse: {
-            ru: "Даниил 7:11",
+            uk: "Даниїл 7:11",
             en: "Daniel 7:11",
         },
     },

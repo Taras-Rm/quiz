@@ -4,450 +4,450 @@ export const questions: QuizQuestion[] = [
     {
         id: 1,
         question: {
-            ru: "Что сделал Даниил, когда Бог открыл ему тайну?",
+            uk: "Що зробив Даниїл, коли Бог відкрив йому таємницю?",
             en: "What did Daniel do when God revealed the mystery to him?",
         },
         answer: {
-            ru: "Благословил Бога небесного.",
+            uk: "Благословив Бога небесного.",
             en: "He blessed the God of heaven.",
         },
         verse: {
-            ru: "Даниил 2:19–23",
+            uk: "Даниїл 2:19–23",
             en: "Daniel 2:19–23",
         },
     },
     {
         id: 2,
         question: {
-            ru: "Какой ширины был золотой истукан?",
+            uk: "Якої ширини був золотий ідол?",
             en: "How wide was the golden statue?",
         },
         answer: {
-            ru: "6 локтей.",
+            uk: "6 ліктів.",
             en: "6 cubits.",
         },
         verse: {
-            ru: "Даниил 3:1",
+            uk: "Даниїл 3:1",
             en: "Daniel 3:1",
         },
     },
     {
         id: 3,
         question: {
-            ru: "В какой год царствования Иоакима Навуходоносор пришел к Иерусалиму?",
+            uk: "У який рік царювання Йоакима Навуходоносор прийшов до Єрусалима?",
             en: "In which year of King Jehoiakim did Nebuchadnezzar come to Jerusalem?",
         },
         answer: {
-            ru: "В третий год царствования Иоакима.",
+            uk: "У третій рік царювання Йоакима.",
             en: "In the third year of Jehoiakim’s reign.",
         },
         verse: {
-            ru: "Даниил 1:1",
+            uk: "Даниїл 1:1",
             en: "Daniel 1:1",
         },
     },
     {
         id: 4,
         question: {
-            ru: "Из какого рода должны были быть юноши, которых приказал привести царь?",
+            uk: "З якого роду повинні були бути юнаки, яких наказав привести цар?",
             en: "From what kind of family were the young men to be taken?",
         },
         answer: {
-            ru: "Из рода царского и княжеского.",
+            uk: "З царського та князівського роду.",
             en: "From royal and noble lineage.",
         },
         verse: {
-            ru: "Даниил 1:3",
+            uk: "Даниїл 1:3",
             en: "Daniel 1:3",
         },
     },
     {
         id: 5,
         question: {
-            ru: "Сколько лет должны были учить юношей книгам и языку халдейскому?",
+            uk: "Скільки років мали навчати юнаків книгам і халдейській мові?",
             en: "How many years were the young men to be trained in Babylonian literature and language?",
         },
         answer: {
-            ru: "Три года.",
+            uk: "Три роки.",
             en: "Three years.",
         },
         verse: {
-            ru: "Даниил 1:5",
+            uk: "Даниїл 1:5",
             en: "Daniel 1:5",
         },
     },
     {
         id: 6,
         question: {
-            ru: "До какого года царствования Кира жил Даниил?",
+            uk: "До якого року царювання Кіра жив Даниїл?",
             en: "Until what year of Cyrus’ reign did Daniel live?",
         },
         answer: {
-            ru: "До первого года царя Кира.",
+            uk: "До першого року царя Кіра.",
             en: "Until the first year of King Cyrus.",
         },
         verse: {
-            ru: "Даниил 1:21",
+            uk: "Даниїл 1:21",
             en: "Daniel 1:21",
         },
     },
     {
         id: 7,
         question: {
-            ru: "В какой год царствования Навуходоносора ему приснились сны?",
+            uk: "У який рік царювання Навуходоносора йому снилися сни?",
             en: "In which year of Nebuchadnezzar’s reign did he have dreams?",
         },
         answer: {
-            ru: "Во второй год.",
+            uk: "У другий рік.",
             en: "In the second year.",
         },
         verse: {
-            ru: "Даниил 2:1",
+            uk: "Даниїл 2:1",
             en: "Daniel 2:1",
         },
     },
     {
         id: 8,
         question: {
-            ru: "Что именно требовал Навуходоносор от мудрецов во 2 главе?",
+            uk: "Що саме вимагав Навуходоносор від мудреців у 2 розділі?",
             en: "What did Nebuchadnezzar demand from the wise men in chapter 2?",
         },
         answer: {
-            ru: "Не только объяснить сон, но и рассказать сам сон.",
+            uk: "Не тільки пояснити сон, але й розповісти сам сон.",
             en: "Not only to interpret the dream but to tell the dream itself.",
         },
         verse: {
-            ru: "Даниил 2:5–6",
+            uk: "Даниїл 2:5–6",
             en: "Daniel 2:5–6",
         },
     },
     {
         id: 9,
         question: {
-            ru: "Какие четыре группы мудрецов призвал Навуходоносор?",
+            uk: "Які чотири групи мудреців покликав Навуходоносор?",
             en: "Which four groups of wise men did Nebuchadnezzar summon?",
         },
         answer: {
-            ru: "Тайноведцев, гадателей, чародеев и халдеев.",
+            uk: "Чарівників, ворожбитів, чаклунів і халдеїв.",
             en: "Magicians, enchanters, sorcerers, and Chaldeans.",
         },
         verse: {
-            ru: "Даниил 2:2",
+            uk: "Даниїл 2:2",
             en: "Daniel 2:2",
         },
     },
     {
         id: 10,
         question: {
-            ru: "Как Даниил назвал Бога в своей молитве после открытия тайны?",
+            uk: "Як Даниїл назвав Бога у своїй молитві після відкриття таємниці?",
             en: "What did Daniel call God in his prayer after the mystery was revealed?",
         },
         answer: {
-            ru: "Бог отцов моих.",
+            uk: "Бог батьків моїх.",
             en: "The God of my fathers.",
         },
         verse: {
-            ru: "Даниил 2:23",
+            uk: "Даниїл 2:23",
             en: "Daniel 2:23",
         },
     },
     {
         id: 11,
         question: {
-            ru: "Что означает золотая голова истукана?",
+            uk: "Що означає золота голова ідола?",
             en: "What does the golden head of the statue represent?",
         },
         answer: {
-            ru: "Царство Навуходоносора.",
+            uk: "Царство Навуходоносора.",
             en: "The kingdom of Nebuchadnezzar.",
         },
         verse: {
-            ru: "Даниил 2:37–38",
+            uk: "Даниїл 2:37–38",
             en: "Daniel 2:37–38",
         },
     },
     {
         id: 12,
         question: {
-            ru: "Что должно было сделать царство, изображенное камнем?",
+            uk: "Що мало зробити царство, зображене каменем?",
             en: "What was the kingdom represented by the stone supposed to do?",
         },
         answer: {
-            ru: "Сокрушить все царства и стоять вечно.",
+            uk: "Зруйнувати всі царства і стояти вічно.",
             en: "Crush all kingdoms and stand forever.",
         },
         verse: {
-            ru: "Даниил 2:44",
+            uk: "Даниїл 2:44",
             en: "Daniel 2:44",
         },
     },
     {
         id: 13,
         question: {
-            ru: "Что сделал Навуходоносор перед Даниилом после объяснения сна?",
+            uk: "Що зробив Навуходоносор перед Даниїлом після тлумачення сну?",
             en: "What did Nebuchadnezzar do before Daniel after the dream was interpreted?",
         },
         answer: {
-            ru: "Пал на лицо и поклонился Даниилу.",
+            uk: "Упав ниць і вшанував Даниїла.",
             en: "He fell on his face and paid homage to Daniel.",
         },
         verse: {
-            ru: "Даниил 2:46",
+            uk: "Даниїл 2:46",
             en: "Daniel 2:46",
         },
     },
     {
         id: 14,
         question: {
-            ru: "Кого Даниил попросил поставить над делами Вавилона?",
+            uk: "Кого Даниїл попросив поставити над справами Вавилона?",
             en: "Whom did Daniel request to be appointed over the affairs of Babylon?",
         },
         answer: {
-            ru: "Седраха, Мисаха и Авденаго.",
+            uk: "Седраха, Місаха і Авденаго.",
             en: "Shadrach, Meshach, and Abednego.",
         },
         verse: {
-            ru: "Даниил 2:49",
+            uk: "Даниїл 2:49",
             en: "Daniel 2:49",
         },
     },
     {
         id: 15,
         question: {
-            ru: "Какие должностные лица были созваны на открытие истукана?",
+            uk: "Які посадовці були скликані на відкриття ідола?",
             en: "Which officials were summoned for the dedication of the statue?",
         },
         answer: {
-            ru: "Сатрапы, наместники, воеводы, судьи, казнохранители и другие правители.",
+            uk: "Сатрапи, намісники, воєводи, судді, скарбники та інші правителі.",
             en: "Satraps, prefects, governors, advisers, treasurers, judges, and officials.",
         },
         verse: {
-            ru: "Даниил 3:2",
+            uk: "Даниїл 3:2",
             en: "Daniel 3:2",
         },
     },
     {
         id: 16,
         question: {
-            ru: "Какими были брошены Седрах, Мисах и Авденаго в печь?",
+            uk: "Як Седрах, Місах і Авденаго були кинуті в піч?",
             en: "How were Shadrach, Meshach, and Abednego thrown into the furnace?",
         },
         answer: {
-            ru: "Связанными, в одеждах и головных повязках.",
+            uk: "Зв’язаними, в одязі та головних пов’язках.",
             en: "Bound, fully clothed.",
         },
         verse: {
-            ru: "Даниил 3:21",
+            uk: "Даниїл 3:21",
             en: "Daniel 3:21",
         },
     },
     {
         id: 17,
         question: {
-            ru: "Как Навуходоносор описал четвертого в печи?",
+            uk: "Як Навуходоносор описав четвертого в печі?",
             en: "How did Nebuchadnezzar describe the fourth figure in the furnace?",
         },
         answer: {
-            ru: "По виду подобен сыну Божию.",
+            uk: "За виглядом подібний до сина богів.",
             en: "Like a son of the gods.",
         },
         verse: {
-            ru: "Даниил 3:25",
+            uk: "Даниїл 3:25",
             en: "Daniel 3:25",
         },
     },
     {
         id: 18,
         question: {
-            ru: "Как Навуходоносор назвал Бога после их спасения?",
+            uk: "Як Навуходоносор назвав Бога після їх спасіння?",
             en: "What did Nebuchadnezzar call God after their deliverance?",
         },
         answer: {
-            ru: "Всевышний Бог.",
+            uk: "Всевишній Бог.",
             en: "The Most High God.",
         },
         verse: {
-            ru: "Даниил 3:26",
+            uk: "Даниїл 3:26",
             en: "Daniel 3:26",
         },
     },
     {
         id: 19,
         question: {
-            ru: "Какое наказание объявил царь за хулу на Бога?",
+            uk: "Яке покарання оголосив цар за хулу на Бога?",
             en: "What punishment was declared for blasphemy against God?",
         },
         answer: {
-            ru: "Будет изрублен в куски, а дом его разрушен.",
+            uk: "Буде розсічений на шматки, а його дім зруйнований.",
             en: "He will be cut into pieces and his house destroyed.",
         },
         verse: {
-            ru: "Даниил 3:29",
+            uk: "Даниїл 3:29",
             en: "Daniel 3:29",
         },
     },
     {
         id: 20,
         question: {
-            ru: "Какой совет дал Даниил царю?",
+            uk: "Яку пораду дав Даниїл царю?",
             en: "What advice did Daniel give the king?",
         },
         answer: {
-            ru: "Искупить грехи правдой и милосердием.",
+            uk: "Спокутувати гріхи праведністю та милосердям.",
             en: "Renounce sins by doing righteousness and showing mercy.",
         },
         verse: {
-            ru: "Даниил 4:24",
+            uk: "Даниїл 4:24",
             en: "Daniel 4:24",
         },
     },
     {
         id: 21,
         question: {
-            ru: "Через сколько времени исполнилось пророчество?",
+            uk: "Через скільки часу здійснилося пророцтво?",
             en: "After how long did the prophecy come true?",
         },
         answer: {
-            ru: "Через двенадцать месяцев.",
+            uk: "Через дванадцять місяців.",
             en: "After twelve months.",
         },
         verse: {
-            ru: "Даниил 4:26",
+            uk: "Даниїл 4:26",
             en: "Daniel 4:26",
         },
     },
     {
         id: 22,
         question: {
-            ru: "Что сказал Навуходоносор перед падением?",
+            uk: "Що сказав Навуходоносор перед падінням?",
             en: "What did Nebuchadnezzar say before his downfall?",
         },
         answer: {
-            ru: "Это ли не великий Вавилон, который я построил?",
+            uk: "Чи не це великий Вавилон, який я збудував?",
             en: "Is this not the great Babylon I have built?",
         },
         verse: {
-            ru: "Даниил 4:27",
+            uk: "Даниїл 4:27",
             en: "Daniel 4:27",
         },
     },
     {
         id: 23,
         question: {
-            ru: "Кто напомнил Валтасару о Данииле?",
+            uk: "Хто нагадав Валтасару про Даниїла?",
             en: "Who reminded Belshazzar about Daniel?",
         },
         answer: {
-            ru: "Царица.",
+            uk: "Цариця.",
             en: "The queen.",
         },
         verse: {
-            ru: "Даниил 5:10–12",
+            uk: "Даниїл 5:10–12",
             en: "Daniel 5:10–12",
         },
     },
     {
         id: 24,
         question: {
-            ru: "Какие награды обещал Валтасар?",
+            uk: "Які нагороди обіцяв Валтасар?",
             en: "What rewards did Belshazzar promise?",
         },
         answer: {
-            ru: "Багряницу, золотую цепь и власть третьего правителя.",
+            uk: "Багряницю, золоту ланцюг і владу третього правителя.",
             en: "Purple robe, gold chain, and third highest position.",
         },
         verse: {
-            ru: "Даниил 5:7",
+            uk: "Даниїл 5:7",
             en: "Daniel 5:7",
         },
     },
     {
         id: 25,
         question: {
-            ru: "В чем Даниил обличил Валтасара?",
+            uk: "У чому Даниїл докорив Валтасару?",
             en: "What did Daniel rebuke Belshazzar for?",
         },
         answer: {
-            ru: "За гордость и непокорность Богу.",
+            uk: "За гордість і непокору Богові.",
             en: "For pride and lack of humility before God.",
         },
         verse: {
-            ru: "Даниил 5:22",
+            uk: "Даниїл 5:22",
             en: "Daniel 5:22",
         },
     },
     {
         id: 26,
         question: {
-            ru: "Что означало слово «мене»?",
+            uk: "Що означає слово «Мене»?",
             en: "What does ‘Mene’ mean?",
         },
         answer: {
-            ru: "Бог исчислил царство и положил конец ему.",
+            uk: "Бог порахував царство і поклав йому кінець.",
             en: "God has numbered the kingdom and brought it to an end.",
         },
         verse: {
-            ru: "Даниил 5:26",
+            uk: "Даниїл 5:26",
             en: "Daniel 5:26",
         },
     },
     {
         id: 27,
         question: {
-            ru: "Сколько лет было Дарию Мидянину?",
+            uk: "Скільки років було Дарію Мідіянину?",
             en: "How old was Darius the Mede?",
         },
         answer: {
-            ru: "62 года.",
+            uk: "62 роки.",
             en: "62 years old.",
         },
         verse: {
-            ru: "Даниил 5:31",
+            uk: "Даниїл 5:31",
             en: "Daniel 5:31",
         },
     },
     {
         id: 28,
         question: {
-            ru: "Против чего враги искали повод?",
+            uk: "У чому вороги шукали привід?",
             en: "What were Daniel’s enemies trying to find a charge against?",
         },
         answer: {
-            ru: "Против закона Бога его.",
+            uk: "Проти закону Бога його.",
             en: "Against the law of his God.",
         },
         verse: {
-            ru: "Даниил 6:5",
+            uk: "Даниїл 6:5",
             en: "Daniel 6:5",
         },
     },
     {
         id: 29,
         question: {
-            ru: "На сколько дней запретили молитву?",
+            uk: "На скільки днів заборонили молитву?",
             en: "For how many days was prayer forbidden?",
         },
         answer: {
-            ru: "На 30 дней.",
+            uk: "На 30 днів.",
             en: "For 30 days.",
         },
         verse: {
-            ru: "Даниил 6:7",
+            uk: "Даниїл 6:7",
             en: "Daniel 6:7",
         },
     },
     {
         id: 30,
         question: {
-            ru: "Что сделал Дарий ночью?",
+            uk: "Що робив Дарій тієї ночі?",
             en: "What did Darius do that night?",
         },
         answer: {
-            ru: "Не ел, не спал и провел ночь в тревоге.",
+            uk: "Він постив, не міг спати і провів ніч у тривозі.",
             en: "He fasted, could not sleep, and spent the night in distress.",
         },
         verse: {
-            ru: "Даниил 6:18",
+            uk: "Даниїл 6:18",
             en: "Daniel 6:18",
         },
     },

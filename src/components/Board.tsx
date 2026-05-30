@@ -86,7 +86,7 @@ const Board = ({ questions }: BoardProps) => {
                     <div className="text-center space-y-8">
 
                         <p className="text-3xl md:text-4xl font-semibold leading-tight text-slate-900">
-                            {selectedQuestion.question.ru}
+                            {selectedQuestion.question.uk}
                         </p>
 
                         <p className="text-3xl md:text-4xl font-semibold leading-tight text-slate-700">
@@ -99,7 +99,7 @@ const Board = ({ questions }: BoardProps) => {
                     {showAnswer && (
                         <div className="mt-12 rounded-2xl bg-green-50 p-10 text-center animate-[fadeIn_0.25s_ease-out]">
                             <div className="text-3xl md:text-4xl font-bold text-green-800">
-                                {selectedQuestion.answer.ru}
+                                {selectedQuestion.answer.uk}
                             </div>
 
                             <div className="text-3xl md:text-4xl font-bold text-green-700 mt-4">
@@ -107,7 +107,7 @@ const Board = ({ questions }: BoardProps) => {
                             </div>
 
                             <div className="text-base text-slate-500 mt-6 font-bold">
-                                📖 {selectedQuestion.verse.ru} | {selectedQuestion.verse.en}
+                                📖 {selectedQuestion.verse.uk} | {selectedQuestion.verse.en}
                             </div>
 
                         </div>

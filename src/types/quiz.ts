@@ -1,15 +1,15 @@
 export type QuizQuestion = {
     id: number;
     question: {
-        ru: string;
+        uk: string;
         en: string;
     };
     answer: {
-        ru: string;
+        uk: string;
         en: string;
     };
     verse: {
-        ru: string;
+        uk: string;
         en: string;
     };
 };
