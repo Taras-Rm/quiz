@@ -51,13 +51,17 @@ const Board = ({ questions }: BoardProps) => {
                         <button
                             key={question.id}
                             onClick={() => openQuestion(question)}
-                            className={`w-full h-full flex items-center justify-center rounded-xl text-2xl font-bold transition-all duration-300 ease-out cursor-pointer
-            /* enter animation feel */
-            animate-[fadeIn_0.4s_ease-out]
-            ${used ? "bg-green-500 text-white scale-[0.98] opacity-80"
+                            className={`w-full h-full flex items-center justify-center rounded-xl text-3xl font-bold cursor-pointer
+                                transition-all duration-200 ease-out
+                                
+                                animate-[popIn_0.25s_ease-out]
+                                active:scale-95 active:brightness-90
+                                
+                                ${used
+                                    ? "bg-green-500 text-white scale-[0.98] opacity-80"
                                     : "bg-blue-600 text-white hover:bg-blue-500 hover:scale-[1.03] hover:-translate-y-0.5"
                                 }
-            `}
+                                `}
                             style={{
                                 animationDelay: `${index * 20}ms`,
                                 animationFillMode: "both",
@@ -71,10 +75,8 @@ const Board = ({ questions }: BoardProps) => {
         </div>
 
         {selectedQuestion && (
-            <div className="fixed inset-0 flex items-center justify-center bg-black/90 p-6">
-
-                <div className="w-full max-w-6xl rounded-3xl bg-white p-12 shadow-2xl">
-
+            <div className="fixed inset-0 flex items-center justify-center bg-black/90 p-6 animate-[fadeIn_0.2s_ease-out]">
+                <div className="w-full max-w-6xl rounded-3xl bg-white p-12 shadow-2xl animate-[popIn_0.25s_ease-out] transition-transform duration-200">
                     {/* TITLE */}
                     <h2 className="text-center text-3xl font-bold text-slate-800 mb-10">
                         Question #{selectedQuestion.id}
@@ -95,8 +97,7 @@ const Board = ({ questions }: BoardProps) => {
 
                     {/* ANSWER */}
                     {showAnswer && (
-                        <div className="mt-12 rounded-2xl bg-green-50 p-10 text-center">
-
+                        <div className="mt-12 rounded-2xl bg-green-50 p-10 text-center animate-[fadeIn_0.25s_ease-out]">
                             <div className="text-3xl md:text-4xl font-bold text-green-800">
                                 {selectedQuestion.answer.ru}
                             </div>
@@ -105,7 +106,7 @@ const Board = ({ questions }: BoardProps) => {
                                 {selectedQuestion.answer.en}
                             </div>
 
-                            <div className="text-base text-slate-500 mt-6">
+                            <div className="text-base text-slate-500 mt-6 font-bold">
                                 📖 {selectedQuestion.verse.ru} | {selectedQuestion.verse.en}
                             </div>
 
