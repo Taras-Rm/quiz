@@ -3,9 +3,11 @@ import type { QuizQuestion } from "../types/quiz";
 
 type BoardProps = {
     questions: QuizQuestion[]
+    awardPoint: (team: "brantford" | "hamilton" | "toronto") => void
+    mode: string
 }
 
-const Board = ({ questions }: BoardProps) => {
+const Board = ({ questions, awardPoint, mode }: BoardProps) => {
     const [showAnswer, setShowAnswer] = useState<boolean>(false);
     const [selectedQuestion, setSelectedQuestion] = useState<QuizQuestion | null>(null);
     const [usedQuestions, setUsedQuestions] = useState<number[]>([]);
@@ -31,6 +33,13 @@ const Board = ({ questions }: BoardProps) => {
 
         setSelectedQuestion(null);
         setShowAnswer(false);
+    };
+
+    const awardAndClose = (
+        team: "brantford" | "hamilton" | "toronto"
+    ) => {
+        awardPoint(team);
+        closeQuestion();
     };
 
     return <>
@@ -114,8 +123,7 @@ const Board = ({ questions }: BoardProps) => {
                     )}
 
                     {/* BUTTONS */}
-                    <div className="mt-12 flex justify-center gap-6">
-
+                    <div className="mt-12 flex flex-col items-center gap-6">
                         {!showAnswer ? (
                             <button
                                 onClick={() => setShowAnswer(true)}
@@ -124,14 +132,39 @@ const Board = ({ questions }: BoardProps) => {
                                 Show Answer
                             </button>
                         ) : (
-                            <button
-                                onClick={closeQuestion}
-                                className="rounded-xl bg-green-600 px-10 py-5 text-xl font-semibold text-white hover:bg-green-700 cursor-pointer"
-                            >
-                                Close
-                            </button>
-                        )}
+                            <>
+                                {mode !== "audience" && <div className="flex flex-wrap justify-center gap-4">
+                                    <button
+                                        onClick={() => awardAndClose("brantford")}
+                                        className="rounded-xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-800 shadow-sm hover:bg-slate-50 cursor-pointer"
+                                    >
+                                        Brantford
+                                    </button>
 
+                                    <button
+                                        onClick={() => awardAndClose("hamilton")}
+                                        className="rounded-xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-800 shadow-sm hover:bg-slate-50 cursor-pointer"
+                                    >
+                                        Hamilton
+                                    </button>
+
+                                    <button
+                                        onClick={() => awardAndClose("toronto")}
+                                        className="rounded-xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-800 shadow-sm hover:bg-slate-50 cursor-pointer"
+                                    >
+                                        Toronto
+                                    </button>
+                                </div>}
+
+
+                                <button
+                                    onClick={closeQuestion}
+                                    className="rounded-xl bg-green-600 px-6 py-2 text-xl font-semibold text-white hover:bg-green-700 cursor-pointer"
+                                >
+                                    Close
+                                </button>
+                            </>
+                        )}
                     </div>
 
                 </div>
