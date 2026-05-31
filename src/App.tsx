@@ -62,7 +62,7 @@ function App() {
 
           <div className="flex items-center gap-3">
             <span className="text-lg font-medium text-slate-700">
-              Toronto
+              Hamilton 2
             </span>
             <span className="min-w-[64px] text-center text-3xl font-bold text-slate-900">
               {scores.toronto}

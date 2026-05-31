@@ -152,7 +152,7 @@ const Board = ({ questions, awardPoint, mode }: BoardProps) => {
                                         onClick={() => awardAndClose("toronto")}
                                         className="rounded-xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-800 shadow-sm hover:bg-slate-50 cursor-pointer"
                                     >
-                                        Toronto
+                                        Hamilton 2
                                     </button>
                                 </div>}
 
